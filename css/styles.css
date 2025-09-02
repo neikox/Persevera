@@ -293,4 +293,13 @@ footer {
     margin-left: 0;
 }
 }
+@media (max-width: 600px) {
+    .contact-map iframe {
+        width: 98vw !important;
+        max-width: 340px;
+        height: 180px !important;
+        min-width: 180px;
+        border-radius: 10px;
+    }
+}
 
